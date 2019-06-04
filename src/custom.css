@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-size: 100%;
+    background-position: bottom;
+    min-height: 100%;
+}
+form {
+    padding: 20px;
+    margin-top: 60px;
+}
+form button, form h5 {
+    margin: 20px 0;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+    border-color: #ec407a;
+    box-shadow: none;
+}
